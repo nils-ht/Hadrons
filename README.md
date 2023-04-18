@@ -26,6 +26,7 @@ cd Hadrons
 mkdir build; cd build
 ../configure --with-grid=<dir>
 make -j<N>
+make install
 ```
 `<dir>` is the installation prefix of Grid and `<N>` is the number of parallel
 build tasks. All the compilation flags used for compiling Grid will be reused to
